@@ -22,7 +22,7 @@ Welcome to the **SPI Slave with Single-Port RAM Project** — a hands-on FPGA im
 
 | Path | Description |
 |---|---|
-| [**SPI SLAVE MODULE**] | Top-level SPI slave (protocol decode, FSM, MISO/MOSI handling) |
+| [**SPI SLAVE MODULE**](https://github.com/ahmedbelal16/SPI_SLAVE/blob/main/Main%20Module/spi.v) | Top-level SPI slave (protocol decode, FSM, MISO/MOSI handling) |
 | [**RAM Module**] | Single-port RAM module |
 | [**TOP Module**] | Integration wrapper (SPI + RAM + debug signals) |
 | [**Test Bench**] | Testbench verifying write/read sequences & edge cases |
