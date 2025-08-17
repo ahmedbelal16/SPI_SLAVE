@@ -28,7 +28,7 @@ Welcome to the **SPI Slave with Single-Port RAM Project** — a hands-on FPGA im
 | [**Test Bench**](https://github.com/ahmedbelal16/SPI_SLAVE/blob/main/Main%20Module/Top_Module_tb.v) | Testbench verifying write/read sequences & edge cases |
 | [**DO RUN FILE**](https://github.com/ahmedbelal16/SPI_SLAVE/blob/main/Main%20Module/run.do) | QuestaSim automation script (compile, run, wave setup) |
 | [**Constraint File**](https://github.com/ahmedbelal16/SPI_SLAVE/blob/main/spi.xdc) | Pin & clock constraints (example mapping included) |
-| [**Project Report**] | Final project report (waves, lint, synthesis, implementation) |
+| [**Project Report**](https://github.com/ahmedbelal16/SPI_SLAVE/blob/main/TOP_Module.bit) | Final project report (waves, lint, synthesis, implementation) |
 
 ---
 
