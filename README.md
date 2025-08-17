@@ -120,5 +120,4 @@ The project not only shows how SPI communication can be integrated into FPGA-bas
 
 If you found this project useful or inspiring, feel free to ⭐ star the repository and share it!  
 Your feedback and suggestions are always welcome — let’s keep building and learning together. 💡
-v
 
