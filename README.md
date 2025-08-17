@@ -101,8 +101,8 @@ Welcome to the **SPI Slave with Single-Port RAM Project** — a hands-on FPGA im
 
 ## 🧑‍💻 Credits
 
-[**Ahmed Belal**]
-[**Omar Waleed**](https://github.com/omarwaleed123eng)  
+- [**Ahmed Belal**](https://github.com/ahmedbelal16)
+- [**Omar Waleed**](https://github.com/omarwaleed123eng)  
 
 ---
 
