@@ -87,14 +87,32 @@ Welcome to the **SPI Slave with Single-Port RAM Project** — a hands-on FPGA im
 | `clk` | 100 MHz clock pin (e.g., W5) |
 | `rst_n` | Switch 0 |
 | `SS_n` | Switch 1 |
-| `MOSI` | Switch 2 / PMOD |
-| `MISO` | LED (or PMOD pin) |
+| `MOSI` | Switch 2 |
+| `MISO` | LED |
 
 ---
 
-## 🧪 How to Run (Quick Start)
+## 📊 Results Summary
 
-### Simulation (QuestaSim)
+- **FSM encodings compared:** Gray, One-Hot, Sequential  
+- **Selected encoding:** **Gray** — highest timing slack after implementation  
+- **Lint:** Clean (no critical issues reported by QuestaLint)  
+- **Implementation:** Bitstream generated successfully; timing closed for chosen encoding  
+- Full report, waveforms, and implementation snapshots are included in `docs/SPI_SLAVE.pdf`.
+
+---
+
+## 🤝 Credits
+
+**Team:** Ahmed Belal, Omar Waleed  
+**Supervisor:** Eng. Kareem Waseem
+
+---
+
+## 🚀 TL;DR
+
+FPGA **SPI Slave** + single-port RAM controlled by an FSM. Verified in **QuestaSim**, linted with **QuestaLint**, **Gray** encoding chosen for best timing — bitstream ready for Spartan-6.
+
 ```tcl
 # from sim/ directory
 do run.do
