@@ -67,8 +67,8 @@ Welcome to the **SPI Slave with Single-Port RAM Project** — a hands-on FPGA im
 
 ---
 
-## 📏 Design Flow (Vivado / ISE for Spartan-6)
-1. Create project and add `rtl/` and `constraints/top.xdc`.  
+## 📏 Design Flow (Vivado)
+1. Create project and add rtl and constraints.  
 2. Run: **Elaboration → Synthesis → Implementation → Bitstream**.  
 3. Check:
    - ✅ No critical warnings in Messages  
@@ -78,8 +78,8 @@ Welcome to the **SPI Slave with Single-Port RAM Project** — a hands-on FPGA im
 
 ---
 
-## 🔌 Example Pinout (update to match your board)
-| Signal | Board Mapping (example) |
+## 🔌 Example Pinout 
+| Signal | Board Mapping |
 |---|---|
 | `clk` | 100 MHz clock pin (e.g., W5) |
 | `rst_n` | Switch 0 |
