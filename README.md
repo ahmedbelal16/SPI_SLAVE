@@ -25,7 +25,7 @@ Welcome to the **SPI Slave with Single-Port RAM Project** — a hands-on FPGA im
 | [**SPI SLAVE MODULE**](https://github.com/ahmedbelal16/SPI_SLAVE/blob/main/Main%20Module/spi.v) | Top-level SPI slave (protocol decode, FSM, MISO/MOSI handling) |
 | [**RAM Module**](https://github.com/ahmedbelal16/SPI_SLAVE/blob/main/Main%20Module/Ram.v) | Single-port RAM module |
 | [**TOP Module**](https://github.com/ahmedbelal16/SPI_SLAVE/blob/main/Main%20Module/TOP_Module.v) | Integration wrapper (SPI + RAM + debug signals) |
-| [**Test Bench**] | Testbench verifying write/read sequences & edge cases |
+| [**Test Bench**](https://github.com/ahmedbelal16/SPI_SLAVE/blob/main/Main%20Module/Top_Module_tb.v) | Testbench verifying write/read sequences & edge cases |
 | [**DO RUN FILE**] | QuestaSim automation script (compile, run, wave setup) |
 | [**Constraint File**] | Pin & clock constraints (example mapping included) |
 | [**Project Report**] | Final project report (waves, lint, synthesis, implementation) |
