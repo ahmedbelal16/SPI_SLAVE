@@ -26,10 +26,9 @@ Welcome to the **SPI Slave with Single-Port RAM Project** — a hands-on FPGA im
 | [**RAM Module**] | Single-port RAM module |
 | [**TOP Module**] | Integration wrapper (SPI + RAM + debug signals) |
 | [**Test Bench**] | Testbench verifying write/read sequences & edge cases |
-| `sim/run.do` | QuestaSim automation script (compile, run, wave setup) |
-| `constraints/top.xdc` | Pin & clock constraints (example mapping included) |
-| `docs/SPI_SLAVE.pdf` | Final project report (waves, lint, synthesis, implementation) |
-| `bitstream/top.bit` | Generated FPGA bitstream (final) |
+| [**DO RUN FILE**] | QuestaSim automation script (compile, run, wave setup) |
+| [**Constraint File**] | Pin & clock constraints (example mapping included) |
+| [**Project Report**] | Final project report (waves, lint, synthesis, implementation) |
 
 ---
 
@@ -102,15 +101,6 @@ Welcome to the **SPI Slave with Single-Port RAM Project** — a hands-on FPGA im
 ## 🤝 Credits
 
 **Team:** Ahmed Belal, Omar Waleed  
-**Supervisor:** Eng. Kareem Waseem
 
 ---
 
-## 🚀 TL;DR
-
-FPGA **SPI Slave** + single-port RAM controlled by an FSM. Verified in **QuestaSim**, linted with **QuestaLint**, **Gray** encoding chosen for best timing — bitstream ready for Spartan-6.
-
-```tcl
-# from sim/ directory
-do run.do
-# open wave window and run simulation
