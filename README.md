@@ -23,12 +23,9 @@ Welcome to the **SPI Slave with Single-Port RAM Project** — a hands-on FPGA im
 | Path | Description |
 |---|---|
 | [**SPI SLAVE MODULE**] | Top-level SPI slave (protocol decode, FSM, MISO/MOSI handling) |
-| `rtl/spi_fsm_gray.v` | FSM (Gray encoded) |
-| `rtl/spi_fsm_onehot.v` | FSM (One-Hot encoded) |
-| `rtl/spi_fsm_seq.v` | FSM (Sequential encoded) |
-| `rtl/spram.v` | Single-port RAM module |
-| `rtl/spi_top.v` | Integration wrapper (SPI + RAM + debug signals) |
-| `tb/spi_tb.v` | Testbench verifying write/read sequences & edge cases |
+| [**RAM Module**] | Single-port RAM module |
+| [**TOP Module**] | Integration wrapper (SPI + RAM + debug signals) |
+| [**Test Bench**] | Testbench verifying write/read sequences & edge cases |
 | `sim/run.do` | QuestaSim automation script (compile, run, wave setup) |
 | `constraints/top.xdc` | Pin & clock constraints (example mapping included) |
 | `docs/SPI_SLAVE.pdf` | Final project report (waves, lint, synthesis, implementation) |
