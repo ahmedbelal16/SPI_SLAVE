@@ -99,13 +99,6 @@ Welcome to the **SPI Slave with Single-Port RAM Project** — a hands-on FPGA im
 
 ---
 
-## 🧑‍💻 Designed By
-
-- [**Ahmed Belal**](https://github.com/ahmedbelal16)
-- [**Omar Waleed**](https://github.com/omarwaleed123eng)  
-
----
-
 ## 🏁 Conclusion
 
 This project successfully demonstrates the design and FPGA implementation of an **SPI Slave with Single-Port RAM**.  
@@ -116,7 +109,13 @@ The project not only shows how SPI communication can be integrated into FPGA-bas
 
 ---
 
+## 🧑‍💻 Designed By
+
+- [**Ahmed Belal**](https://github.com/ahmedbelal16)
+- [**Omar Waleed**](https://github.com/omarwaleed123eng)  
 ## ⭐ Final Note
+
+---
 
 If you found this project useful or inspiring, feel free to ⭐ star the repository and share it!  
 Your feedback and suggestions are always welcome — let’s keep building and learning together. 💡
