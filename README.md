@@ -99,9 +99,10 @@ Welcome to the **SPI Slave with Single-Port RAM Project** — a hands-on FPGA im
 
 ---
 
-## 🤝 Credits
+## 🧑‍💻 Credits
 
-**Team:** Ahmed Belal, Omar Waleed  
+Ahmed Belal
+Omar Waleed  
 
 ---
 
