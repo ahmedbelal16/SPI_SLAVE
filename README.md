@@ -52,9 +52,10 @@ Welcome to the **SPI Slave with Single-Port RAM Project** — a hands-on FPGA im
 - Encodings evaluated: **Gray**, **One-Hot**, **Sequential**  
 - Final choice: **Gray** encoding — best timing slack after implementation
 
-### 🧠 Memory
+### 🧠 RAM & Memory
 - Single-port RAM, synchronous write/read  
-- Byte-addressable; depth/width configurable in `spram.v`
+- Depth: 256
+- Address Size: 8 bits
 
 ---
 
