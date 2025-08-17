@@ -22,7 +22,7 @@ Welcome to the **SPI Slave with Single-Port RAM Project** — a hands-on FPGA im
 
 | Path | Description |
 |---|---|
-| `rtl/spi_slave.v` | Top-level SPI slave (protocol decode, FSM, MISO/MOSI handling) |
+| [**SPI SLAVE MODULE**] | Top-level SPI slave (protocol decode, FSM, MISO/MOSI handling) |
 | `rtl/spi_fsm_gray.v` | FSM (Gray encoded) |
 | `rtl/spi_fsm_onehot.v` | FSM (One-Hot encoded) |
 | `rtl/spi_fsm_seq.v` | FSM (Sequential encoded) |
