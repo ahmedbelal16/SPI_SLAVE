@@ -112,10 +112,11 @@ The project not only shows how SPI communication can be integrated into FPGA-bas
 ## 🧑‍💻 Designed By
 
 - [**Ahmed Belal**](https://github.com/ahmedbelal16)
-- [**Omar Waleed**](https://github.com/omarwaleed123eng)  
-## ⭐ Final Note
+- [**Omar Waleed**](https://github.com/omarwaleed123eng)
 
 ---
+
+## ⭐ Final Note
 
 If you found this project useful or inspiring, feel free to ⭐ star the repository and share it!  
 Your feedback and suggestions are always welcome — let’s keep building and learning together. 💡
